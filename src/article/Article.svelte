@@ -101,6 +101,7 @@
 </style>
 
 <body>
+  <!--
   <div id="description">
     <h2>What is a Convolutional Neural Network?</h2>
     <p>
@@ -286,4 +287,5 @@
       Georgia Tech and Oregon State.  We thank Anmol Chhabria, Kaan Sancak, Kantwon Rogers, and the Georgia Tech Visualization Lab for their support and constructive feedback.  This work was supported in part by NSF grants IIS-1563816, CNS-1704701, NASA NSTRF, DARPA GARD, gifts from Intel, NVIDIA, Google, Amazon.
     </p>
   </div>
+  -->
 </body>

@@ -169,16 +169,16 @@
   }
 
   let imageOptions = [
-    {file: 'boat_1.jpeg', class: 'lifeboat'},
-    {file: 'bug_1.jpeg', class: 'ladybug'},
-    {file: 'pizza_1.jpeg', class: 'pizza'},
-    {file: 'pepper_1.jpeg', class: 'bell pepper'},
-    {file: 'bus_1.jpeg', class: 'bus'},
-    {file: 'koala_1.jpeg', class: 'koala'},
-    {file: 'espresso_1.jpeg', class: 'espresso'},
-    {file: 'panda_1.jpeg', class: 'red panda'},
-    {file: 'orange_1.jpeg', class: 'orange'},
-    {file: 'car_1.jpeg', class: 'sport car'}
+    {file: 'boat_1.jpeg', class: 'Rettungsboot'},
+    {file: 'bug_1.jpeg', class: 'Marienkäfer'},
+    {file: 'pizza_1.jpeg', class: 'Pizza'},
+    {file: 'pepper_1.jpeg', class: 'Paprika'},
+    {file: 'bus_1.jpeg', class: 'Schulbus'},
+    {file: 'koala_1.jpeg', class: 'Koala'},
+    {file: 'espresso_1.jpeg', class: 'Kaffe'},
+    {file: 'panda_1.jpeg', class: 'Pandabär'},
+    {file: 'orange_1.jpeg', class: 'Orange'},
+    {file: 'car_1.jpeg', class: 'Rennauto'}
   ];
   let selectedImage = imageOptions[6].file;
 
@@ -1338,8 +1338,8 @@
   }
 
   .image-container {
-    width: 40px;
-    height: 40px;
+    width: 64px;
+    height: 64px;
     border-radius: 4px;
     display: inline-block;
     position: relative;
@@ -1363,11 +1363,11 @@
   }
 
   .image-container.inactive > img {
-    opacity: 0.3;
+    opacity: 0.4;
   }
 
   .image-container.inactive:hover > img {
-    opacity: 0.6;
+    opacity: 0.8;
   }
 
   .image-container.inactive.disabled {
@@ -1543,7 +1543,7 @@
           <i class="fas fa-eye"></i>
         </span>
         <span id="hover-label-text">
-          Show detail
+          Details
         </span>
       </button>
 
@@ -1556,8 +1556,8 @@
         <div class="select">
           <select bind:value={selectedScaleLevel} id="level-select"
             disabled={disableControl}>
-            <option value="local">Unit</option>
-            <option value="module">Module</option>
+            <option value="local">Einheit</option>
+            <option value="module">Modul</option>
             <option value="global">Global</option>
           </select>
         </div>

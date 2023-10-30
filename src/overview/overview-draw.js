@@ -504,7 +504,7 @@ export const drawCNN = (width, height, cnnGroup, nodeMouseOverHandler,
         .attr('x', left)
         .attr('y', (d, i) => nodeCoordinate[l][i].y + nodeLength / 2)
         .style('dominant-baseline', 'middle')
-        .style('font-size', '11px')
+        .style('font-size', '16px')
         .style('fill', 'black')
         .style('opacity', 0.5)
         .text((d, i) => classLists[i]);
@@ -690,11 +690,11 @@ export const drawCNN = (width, height, cnnGroup, nodeMouseOverHandler,
   redChannel.append('tspan')
     .style('dominant-baseline', 'hanging')
     .style('fill', '#C95E67')
-    .text('Red');
+    .text('Roter');
   
   redChannel.append('tspan')
     .style('dominant-baseline', 'hanging')
-    .text(' channel');
+    .text(' Kanal');
 
   inputAnnotation.append('text')
     .attr('x', nodeCoordinate[0][1].x + nodeLength / 2)
@@ -703,7 +703,7 @@ export const drawCNN = (width, height, cnnGroup, nodeMouseOverHandler,
     .style('dominant-baseline', 'hanging')
     .style('text-anchor', 'middle')
     .style('fill', '#3DB665')
-    .text('Green');
+    .text('Grün');
 
   inputAnnotation.append('text')
     .attr('x', nodeCoordinate[0][2].x + nodeLength / 2)
@@ -712,7 +712,7 @@ export const drawCNN = (width, height, cnnGroup, nodeMouseOverHandler,
     .style('dominant-baseline', 'hanging')
     .style('text-anchor', 'middle')
     .style('fill', '#3F7FBC')
-    .text('Blue');
+    .text('Blau');
 }
 
 /**
